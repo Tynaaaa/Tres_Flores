@@ -1,0 +1,65 @@
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #fff;
+	background-image: url(cenarioGuerra.png);
+}
+
+.navJog{
+	width:32px;
+	height: 32px;
+	background-image: url("tanqueazul.png");
+	position: absolute;
+}
+.telaMsg{
+	position: absolute;
+	margin-left: -25%;
+	top:50px;
+	left: 50%;
+	width: 720px;
+	height: 621px;
+	display: none;
+}
+#medidorPlaneta{
+	border:2px solid #000;
+	width:300px;
+	height:20px;
+	background-color: #fff;
+}
+#barraPlaneta{
+	width:300px;
+	height:20px;
+	background-color: rgb(255, 0, 0);
+}
+.tiroJog{
+	width:6px;
+	height:6px;
+	background-color: #000;
+	border-radius: 6px;
+	position: absolute;
+}
+.bomba{ /*tanque verde*/
+	width:32px;
+	height:32px;
+	background-image:URL("tanqueverde.png");
+	position:absolute;
+}
+.explosaoChao{
+	width:55px;
+	height:57px;
+	position:absolute;
+}
+.explosaoAr{
+	width:70px;
+	height:70px;
+	position:absolute;
+}
+.telaMsg{
+	position: absolute;
+	margin-left:-25%;
+	top:50px;
+	left:50%;
+	width: 720px;
+	height: 621px;
+	display: none;
+}
